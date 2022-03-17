@@ -11,3 +11,4 @@
 | [413. Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/) | [arithmetic-slices.js](https://github.com/PamirKalo/leetcode-solutions/blob/main/Dynamic-programming/arithmetic-slices.js) | `Medium` | `Dynamic Programming`  `Array`|
 | [1302. Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/) | [deepestLeavesSum.js](https://github.com/PamirKalo/Pesho-clone/blob/main/LeetCode/Depth-First%20Search/deepestLeavesSum.js) | `Medium` | `Depth-First Search`  `Tree`|
 | [31. Next Permutation](https://leetcode.com/problems/next-permutation/) | [next-permutation.js](https://github.com/PamirKalo/leetcode-solutions/blob/main/Arrays/next-permutation.js) | `Medium` | `Array`|
+| [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [valid-parentheses.js](https://github.com/PamirKalo/leetcode-solutions/blob/main/String/valid-parentheses.js) | `Easy` | `String` `Stack`|
