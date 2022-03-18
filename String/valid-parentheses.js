@@ -6,6 +6,7 @@
 //  1) Open brackets must be closed by the same type of brackets.
 //  2) Open brackets must be closed in the correct order.
 
+// #1 trivial solution
 const isValid = (s) => {
     const opened = ["(", "{", "["]; // opened brackets
     const closed = [")", "}", "]"]; // closed brackets
@@ -27,3 +28,25 @@ const isValid = (s) => {
 
     return true;
 };
+
+// #2 solution
+// Based on the regex and not too fast
+const isValid3 = (s) => {
+    const re = /\(\s*\)|\[\s*\]|\{\s*\}/g;
+    let str = s;
+    let len;
+
+    do {
+        len = str.length;
+        str = str.replace(re, "");
+    } while (str.length < len);
+
+    return !str.length;
+};
+
+// console.log(isValid3('()')); // true
+// console.log(isValid3('()[]{}')); // true
+// console.log(isValid3('([)]')); // false
+// console.log(isValid3('{[]}')); // true
+// console.log(isValid3('(]')); // false
+// console.log(isValid3('')); // false 
