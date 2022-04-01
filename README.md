@@ -4,7 +4,7 @@
   </a>  
 </p>
 
-# LeetCode Practice & Solutions
+# [My](https://leetcode.com/Pamir/) LeetCode Practice & Solutions
 
 | Challenge | Solution | Difficulty | Topic |
 |:---:|:------:|:------:|:------:|
