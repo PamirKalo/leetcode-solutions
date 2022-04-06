@@ -14,3 +14,4 @@
 | [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [valid-parentheses.js](https://github.com/PamirKalo/leetcode-solutions/blob/main/String/valid-parentheses.js) | `Easy` | `String` `Stack`|
 | [97. Interleaving String](https://leetcode.com/problems/interleaving-string/) | [interleaving-string.js](https://github.com/PamirKalo/leetcode-solutions/blob/main/Dynamic-programming/interleaving-string.js) | `Medium` | `Dynamic Programming` `String` |
 | [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [length-of-last-word.js](https://github.com/PamirKalo/leetcode-solutions/blob/main/String/length-of-last-word.js) | `Easy` | `String` |
+| [168. Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | [excel-sheet-column-title.js](https://github.com/PamirKalo/leetcode-solutions/blob/main/String/excel-sheet-column-title.js) | `Easy` | `String` |
