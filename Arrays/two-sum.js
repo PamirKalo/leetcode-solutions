@@ -40,3 +40,23 @@ const twoSum2 = (nums, target) => {
 };
 
 // twoSum2([2, 7, 11, 15], 9); // [ 0, 1 ]
+
+// #3
+// Hash Table stores the numbers which was passed
+const twoSum3 = (nums, target) => {
+    const hashTable = new Map();
+    let indexes = null;
+
+    for (let i = 0; i < nums.length; i++) {
+        const diff = target - nums[i];
+        if (hashTable.has(diff)) {
+            indexes = [hashTable.get(diff), i];
+            break;
+        }
+        hashTable.set(nums[i], i);
+    }
+
+    return indexes;
+};
+
+// twoSum3([2, 7, 11, 15], 9); // [ 0, 1 ]
