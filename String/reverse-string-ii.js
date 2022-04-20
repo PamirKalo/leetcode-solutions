@@ -32,3 +32,20 @@ const reverseStr = (s, k) => {
 };
 
 // reverseStr("abcdefgkl", 2);
+
+// # 2
+// Recursive solution, surprisingly fast?!
+const reverseStr2 = (s, k) => {
+    if (s.length <= 2 * k) {
+        const endInd = Math.min(k, s.length);
+        const kPart = s.substring(0, endInd).split('').reverse().join('');
+        return kPart + s.substring(endInd);
+    }
+
+    const firstPart = s.substring(0, 2 * k);
+    const toEndPart = s.substring(2 * k);
+
+    return reverseStr2(firstPart, k) + reverseStr2(toEndPart, k);
+};
+
+// console.log(reverseStr2("abcdefghijk", 2));
